@@ -1,4 +1,4 @@
-                  index.html
+                  index.html   ✨✨✨✨✨✨
 
 <!DOCTYPE html>
 <html lang="en">
@@ -42,7 +42,7 @@
 </html>
 
 
-                f1-stackmind.css
+                f1-stackmind.css   ✨✨✨✨✨✨✨
 
 body {
     background-repeat: no-repeat;
@@ -295,7 +295,7 @@ h1 {
     height: 800px;
 }
 
-                    articles.html
+                    articles.html    ✨✨✨✨✨✨✨
 
 <!DOCTYPE html>
 <html lang="en">
@@ -389,7 +389,7 @@ h1 {
     </div>
 </body>
 </html>
-
+                articles.css           ✨✨✨✨✨✨✨
 
           body {
     background-repeat: no-repeat;
