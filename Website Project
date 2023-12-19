@@ -1,47 +1,4 @@
-              articles.html
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>f1 stackmind | Articles</title>
-        <link rel="stylesheet" type="text/css" href="f1-stackmind.css">
-    </head>
-<body>
-    <a class="logo" href="index.html"><img src="logo.png" alt="Home" style="height: 120px; width: 125px; margin-left: 30px;"></a>
-    <div class="container">
-        <div class="upperlist">
-            <a href="" style="position: absolute; right: 70px; top: 40px; color: skyblue;" >Login </a>
-            <a href="" style="position: absolute; top: 40px; right: 155px; color: skyblue;">About us </a>
-            <input type="search" placeholder="    Search" style="position: absolute; top: 45px; left: 30%; color: skyblue;">
-        </div>
-    </div>
-    <header>
-        <div class="navbar" style="cursor: pointer;" >
-            <a title="HOME" href="articles.html">
-                <button class="navbutton homebutton">ARTICLES</button>
-            </a>
-            <a title="PROJECTS" href="">
-                <button class="navbutton projbutton">PROJECTS</button>
-            </a>
-            <a title="TUTORIALS" href="">
-                <button class="navbutton tutorialbutton">TUTORIALS</button>
-            </a>
-            <a title="GAMES AND SOFTWARES" href="">
-                <button class="navbutton softwarebutton">GAMES AND SOFTWARE</button>
-            </a>
-        </div>
-    </br>
-    <main>
-        <a class="s1" href="" style="color: skyblue;"> Watch</a>
-        <a class="s2" href="" style="color: skyblue;">Explore</a>    
-    </main>
-
-</body>
-</html>
-
-          index.html
-
+                  index.html
 
 <!DOCTYPE html>
 <html lang="en">
@@ -84,7 +41,8 @@
 </body>
 </html>
 
-        f1-stackmind.css
+
+                f1-stackmind.css
 
 body {
     background-repeat: no-repeat;
@@ -337,9 +295,103 @@ h1 {
     height: 800px;
 }
 
-      articles.css
+                    articles.html
 
-body {
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>f1 stackmind | Articles</title>
+        <link rel="stylesheet" type="text/css" href="articles.css">
+    </head>
+<body>
+    <a class="logo" href="index.html"><img src="logo.png" alt="Home" style="height: 120px; width: 125px; margin-left: 30px;"></a>
+    <div class="container">
+        <div class="upperlist">
+            <a href="" style="position: absolute; right: 70px; top: 40px; color: skyblue;" >Login </a>
+            <a href="" style="position: absolute; top: 40px; right: 155px; color: skyblue;">About us </a>
+            <input type="search" placeholder="    Search" style="position: absolute; top: 45px; left: 30%; color: skyblue;">
+        </div>
+    </div>
+    <header>
+        <div class="navbar" style="cursor: pointer;" >
+            <a title="HOME" href="">
+                <button class="navbutton homebutton">RANKINGS</button>
+            </a>
+            <a title="PROJECTS" href="">
+                <button class="navbutton projbutton">PROJECTS</button>
+            </a>
+            <a title="TUTORIALS" href="">
+                <button class="navbutton tutorialbutton">TUTORIALS</button>
+            </a>
+            <a title="GAMES AND SOFTWARES" href="">
+                <button class="navbutton softwarebutton">GAMES AND SOFTWARE</button>
+            </a>
+        </div>
+        <a class="s1" href="" style="color: skyblue;"> Watch</a>
+        <a class="s2" href="" style="color: skyblue;">Explore</a>
+    </br>
+    <div class="box">
+        <h1><big>A Deep Dive into the Immersive Universe of F1 stackmind</big></h1>
+        <img style="height: auto; width: auto;" src="logo.png" alt="f1 stackmind logo">
+        <video src="F1Stackmind compilation.mp4" controls style="height: 460px; width: 500px; " ></video>
+    <div class="gallery">
+    </br>
+</br>
+</br>
+</br>
+</br>
+    </div>
+        <div class="image-container" id="container1">
+          <a href="#image2"><img src="sample1.jpg" /></a>
+          <p class="image-description"> sample discription </p>
+        </div>
+      
+        <div class="image-container" id="container2">
+          <a href="#image2"><img src="sample2.jpg" /></a>
+          <p class="image-description"> sample discription 2 </p>
+        </div>
+      
+        <div class="image-container" id="container3">
+          <a href="#image3"><img src="sample3.jpg" /></a>
+          <p class="image-description"> sample discription 3 </p>
+        </div>
+      
+        <div class="image-container" id="container4">
+          <a href="#image4"><img src="sample4.jpg" /></a>
+          <p class="image-description"> sample discription 4 </p>
+        </div>
+    </div>
+      <div class="lightbox" id="image2">
+        <a href="#" class="close">CLOSE</a>
+        <div class="lightbox-content">
+            <p>helllo</p>
+        </div>
+      </div>
+      
+      <div class="lightbox" id="image2">
+        <a href="#" class="close">CLOSE</a>
+        <div class="lightbox-content">
+        </div>
+      </div>
+      
+      <div class="lightbox" id="image3">
+        <a href="#container3" class="close">CLOSE</a>
+        <div class="lightbox-content">
+        </div>
+      </div>
+      
+      <div class="lightbox" id="image4">
+        <a href="#container4" class="close">CLOSE</a>
+        <div class="lightbox-content">
+        </div>
+    </div>
+</body>
+</html>
+
+
+          body {
     background-repeat: no-repeat;
     background-size: cover;
     margin: 0;
@@ -608,64 +660,66 @@ h1 {
         color: red;
     }
 }
-.image-container {
-    margin: 0 auto; /* center the image containers */
-    width: 80%;
-    box-shadow: 0 15px 30px rgba(0,0,0,0.30), 0 11px 8px rgba(0,0,0,0.22); /* material box shadow */
-    margin-bottom: 20px;
-    transition-duration: 1s;
-  }
-  .image-container:hover {
-    width: 90%;
-    box-shadow: 0 18px 36px rgba(0,0,0,0.30), 0 14px 11px rgba(0,0,0,0.22);
-  }
-  /* make the images responsive */
-  img {
-    width: 100%;
-    height: auto;
-  }
-  .image-description {
-    padding: 0 15px 15px 15px;
-    text-align: center;
-  }
-  
-  /* lightbox stylesheet */
-  .lightbox {
-    display: table; /* helps us center the lightbox-content */
-    transition-duration: 1s; /* duration of the fade in effect */
-  
-    /* make the lightbox occupy the entire page */
-    position: fixed;
-    top: -100%; /* hide the lightbox above the top edge */
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.7); /* black with 0.7 opacity */
-  }
-  .lightbox:target {
-    top: 0; /* make the lightbox cover the entire page */
-  }
-  .lightbox-content {
-    display: table-cell;
-    vertical-align: middle; /* vertically center */
-    text-align: center; /* horizontally center */
-  }
-  .close {
-    /* position the CLOSE button to the top-right corner */
-    position: absolute;
-    top: 10px;
-    right: 10px;
-  
-    /* style the close button */
-    font-size: 20px;
-    font-weight: 300;
-    text-decoration: none;
-    color: white;
-  }
-  
-  /* make the image responsive */
-  .lightbox img {
-    max-width: 100%;
-    height: auto;
-  }
 
+.image-container {
+  margin: 0 auto; /* center the image containers */
+  width: 80%;
+  box-shadow: 0 15px 30px rgba(0,0,0,0.30), 0 11px 8px rgba(0,0,0,0.22); /* material box shadow */
+  margin-bottom: 20px;
+  transition-duration: 1s;
+}
+.image-container:hover {
+  width: 90%;
+  box-shadow: 0 18px 36px rgba(0,0,0,0.30), 0 14px 11px rgba(0,0,0,0.22);
+}
+/* make the images responsive */
+img {
+  width: 100%;
+  height: auto;
+}
+.image-description {
+  padding: 0 15px 15px 15px;
+  text-align: center;
+}
+
+/* lightbox stylesheet */
+.lightbox {
+  display: table; /* helps us center the lightbox-content */
+  transition-duration: 1s; /* duration of the fade in effect */
+
+  /* make the lightbox occupy the entire page */
+  position: fixed;
+  top: -100%; /* hide the lightbox above the top edge */
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7); /* black with 0.7 opacity */
+}
+.lightbox:target {
+  top: 0; /* make the lightbox cover the entire page */
+}
+.lightbox-content {
+  display: table-cell;
+  vertical-align: middle; /* vertically center */
+  text-align: center; /* horizontally center */
+}
+.close {
+  /* position the CLOSE button to the top-right corner */
+  position: absolute;
+  top: 10px;
+  right: 10px;
+
+  /* style the close button */
+  font-size: 20px;
+  font-weight: 300;
+  text-decoration: none;
+  color: white;
+}
+
+/* make the image responsive */
+.lightbox p {
+  font-size: xx-large;
+  position: absolute;
+  top: 10px;
+  color: aqua;
+}
