@@ -1,0 +1,671 @@
+              articles.html
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>f1 stackmind | Articles</title>
+        <link rel="stylesheet" type="text/css" href="f1-stackmind.css">
+    </head>
+<body>
+    <a class="logo" href="index.html"><img src="logo.png" alt="Home" style="height: 120px; width: 125px; margin-left: 30px;"></a>
+    <div class="container">
+        <div class="upperlist">
+            <a href="" style="position: absolute; right: 70px; top: 40px; color: skyblue;" >Login </a>
+            <a href="" style="position: absolute; top: 40px; right: 155px; color: skyblue;">About us </a>
+            <input type="search" placeholder="    Search" style="position: absolute; top: 45px; left: 30%; color: skyblue;">
+        </div>
+    </div>
+    <header>
+        <div class="navbar" style="cursor: pointer;" >
+            <a title="HOME" href="articles.html">
+                <button class="navbutton homebutton">ARTICLES</button>
+            </a>
+            <a title="PROJECTS" href="">
+                <button class="navbutton projbutton">PROJECTS</button>
+            </a>
+            <a title="TUTORIALS" href="">
+                <button class="navbutton tutorialbutton">TUTORIALS</button>
+            </a>
+            <a title="GAMES AND SOFTWARES" href="">
+                <button class="navbutton softwarebutton">GAMES AND SOFTWARE</button>
+            </a>
+        </div>
+    </br>
+    <main>
+        <a class="s1" href="" style="color: skyblue;"> Watch</a>
+        <a class="s2" href="" style="color: skyblue;">Explore</a>    
+    </main>
+
+</body>
+</html>
+
+          index.html
+
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>f1 stackmind | Articles</title>
+        <link rel="stylesheet" type="text/css" href="f1-stackmind.css">
+    </head>
+<body>
+    <a class="logo" href="index.html"><img src="logo.png" alt="Home" style="height: 120px; width: 125px; margin-left: 30px;"></a>
+    <div class="container">
+        <div class="upperlist">
+            <a href="" style="position: absolute; right: 70px; top: 40px; color: skyblue;" >Login </a>
+            <a href="" style="position: absolute; top: 40px; right: 155px; color: skyblue;">About us </a>
+            <input type="search" placeholder="    Search" style="position: absolute; top: 45px; left: 30%; color: skyblue;">
+        </div>
+    </div>
+    <header>
+        <div class="navbar" style="cursor: pointer;" >
+            <a title="HOME" href="articles.html">
+                <button class="navbutton homebutton">ARTICLES</button>
+            </a>
+            <a title="PROJECTS" href="">
+                <button class="navbutton projbutton">PROJECTS</button>
+            </a>
+            <a title="TUTORIALS" href="">
+                <button class="navbutton tutorialbutton">TUTORIALS</button>
+            </a>
+            <a title="GAMES AND SOFTWARES" href="">
+                <button class="navbutton softwarebutton">GAMES AND SOFTWARE</button>
+            </a>
+        </div>
+    </br>
+    <main>
+        <a class="s1" href="" style="color: skyblue;"> Watch</a>
+        <a class="s2" href="" style="color: skyblue;">Explore</a>    
+    </main>
+
+</body>
+</html>
+
+        f1-stackmind.css
+
+body {
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    background-image: url('background.png');
+}
+
+.logo {
+    margin-left: 30px;
+    margin-top: 10px; 
+}
+
+.container {
+    top: 80px;
+    text-decoration: none;
+    word-spacing: 10px;
+}
+
+.upperlist {
+    display: flex;
+    align-items: center;
+    margin-left: 800px;
+}
+
+.upperlist a {
+    text-decoration: none;
+    font-size: 18px;
+    margin-right: 10px;
+    animation: tryy 5s infinite;
+}
+@keyframes tryy {
+    0% {
+        color: violet;
+    }
+    16.66% {
+        color: indigo;
+    }
+    33.33% {
+        color: blue;
+    }
+    50% {
+        color: green;
+    }
+    66.66% {
+        color: yellow;
+    }
+    83.33% {
+        color: orange;
+    }
+    100% {
+        color: red;
+    }
+}
+
+.upperlist input[type="search"] {
+    font-size: 16px;
+    padding: 5px;
+    border-radius: 30px;
+    height: 40px;
+    width: 700px;
+    animation: suggest 5s infinite;
+    border: 2.5px solid transparent; 
+}
+
+@keyframes suggest {
+    0% {
+        border-color: violet;
+    }
+    16.66% {
+        border-color: indigo;
+    }
+    33.33% {
+        border-color: blue;
+    }
+    50% {
+        border-color: green;
+    }
+    66.66% {
+        border-color: yellow;
+    }
+    83.33% {
+        border-color: orange;
+    }
+    100% {
+        border-color: red;
+    }
+}
+
+.navbar {
+    height: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+    animation: suggest 5s infinite;
+    border: 2.5px solid transparent; 
+}
+
+@keyframes suggest {
+    0% {
+        border-color: violet;
+    }
+    16.66% {
+        border-color: indigo;
+    }
+    33.33% {
+        border-color: blue;
+    }
+    50% {
+        border-color: green;
+    }
+    66.66% {
+        border-color: yellow;
+    }
+    83.33% {
+        border-color: orange;
+    }
+    100% {
+        border-color: red;
+    }
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    margin: 0 20px;
+    padding: 10px;
+    border-radius: 5px;
+    transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out;
+}
+
+.navbar a:hover {
+    color: skyblue;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.navbutton {
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 5px;
+    transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out;
+}
+
+.navbutton:hover {
+    color: skyblue;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: skyblue;
+    font-family: fantasy;
+}
+.s1{
+    position: absolute;
+    top: 60px;
+    left: 270px;
+    font-size: 18px;
+    text-decoration: none;
+    font-size: 18px;
+    animation: tryy 5s infinite;
+}
+@keyframes tryy {
+    0% {
+        color: violet;
+    }
+    16.66% {
+        color: indigo;
+    }
+    33.33% {
+        color: blue;
+    }
+    50% {
+        color: green;
+    }
+    66.66% {
+        color: yellow;
+    }
+    83.33% {
+        color: orange;
+    }
+    100% {
+        color: red;
+    }
+}
+.s2{
+    position: absolute;
+    top: 60px;
+    left: 400px;
+    font-size: 18px;
+    text-decoration: none;
+    font-size: 18px;
+    animation: tryyy 5s infinite;
+}
+@keyframes tryyy {
+    0% {
+        color: violet;
+    }
+    16.66% {
+        color: indigo;
+    }
+    33.33% {
+        color: blue;
+    }
+    50% {
+        color: green;
+    }
+    66.66% {
+        color: yellow;
+    }
+    83.33% {
+        color: orange;
+    }
+    100% {
+        color: red;
+    }
+}
+.vv{
+    display: flex;
+    align-items: absolute;
+    margin-top: 0px;
+    padding: 8px;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 5px;
+    background-color: white;
+    margin-left: 0px;
+    margin-right: 10px;
+    height: 750px;
+    width: 400px;
+}
+.cc{
+    display: flex;
+    margin-top: 20px;
+    padding: 3px;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+    background-color: white;
+    margin-left: 450px;
+    margin-right: 450px;
+    height: 800px;
+}
+
+      articles.css
+
+body {
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    background-image: url('background.png');
+}
+
+.logo {
+    height: 100px;
+    width: 100px;
+}
+
+.container {
+    top: 80px;
+    text-decoration: none;
+    word-spacing: 10px;
+}
+
+.upperlist {
+    display: flex;
+    align-items: center;
+    margin-left: 800px;
+}
+
+.upperlist a {
+    text-decoration: none;
+    font-size: 18px;
+    margin-right: 10px;
+    animation: tryy 5s infinite;
+}
+@keyframes tryy {
+    0% {
+        color: violet;
+    }
+    16.66% {
+        color: indigo;
+    }
+    33.33% {
+        color: blue;
+    }
+    50% {
+        color: green;
+    }
+    66.66% {
+        color: yellow;
+    }
+    83.33% {
+        color: orange;
+    }
+    100% {
+        color: red;
+    }
+}
+
+.upperlist input[type="search"] {
+    font-size: 16px;
+    padding: 5px;
+    border-radius: 30px;
+    height: 40px;
+    width: 700px;
+    animation: suggest 5s infinite;
+    border: 2.5px solid transparent; 
+}
+
+@keyframes suggest {
+    0% {
+        border-color: violet;
+    }
+    16.66% {
+        border-color: indigo;
+    }
+    33.33% {
+        border-color: blue;
+    }
+    50% {
+        border-color: green;
+    }
+    66.66% {
+        border-color: yellow;
+    }
+    83.33% {
+        border-color: orange;
+    }
+    100% {
+        border-color: red;
+    }
+}
+
+.navbar {
+    height: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+    animation: suggest 5s infinite;
+    border: 2.5px solid transparent; 
+}
+
+@keyframes suggest {
+    0% {
+        border-color: violet;
+    }
+    16.66% {
+        border-color: indigo;
+    }
+    33.33% {
+        border-color: blue;
+    }
+    50% {
+        border-color: green;
+    }
+    66.66% {
+        border-color: yellow;
+    }
+    83.33% {
+        border-color: orange;
+    }
+    100% {
+        border-color: red;
+    }
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    margin: 0 20px;
+    padding: 5px;
+    border-radius: 5px;
+    transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out;
+}
+
+.navbar a:hover {
+    color: skyblue;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.navbutton {
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 5px;
+    transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out;
+}
+
+.navbutton:hover {
+    color: skyblue;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: skyblue;
+    font-family: fantasy;
+}
+
+.intro {
+    position: absolute;
+    left: 90px;
+    right: 120px;
+}
+
+.box {
+    max-height: 600px;
+    overflow-y: scroll;
+    padding: 20px;
+    margin: 20px;
+    background-image: url('articles.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    animation: rainbow-alyanah-nagsuggest 5s infinite;
+    border: 2.5px solid transparent; 
+}
+
+@keyframes rainbow-alyanah-nagsuggest {
+    0% {
+        border-color: violet;
+    }
+    16.66% {
+        border-color: indigo;
+    }
+    33.33% {
+        border-color: blue;
+    }
+    50% {
+        border-color: green;
+    }
+    66.66% {
+        border-color: yellow;
+    }
+    83.33% {
+        border-color: orange;
+    }
+    100% {
+        border-color: red;
+    }
+}
+.s1{
+    position: absolute;
+    top: 60px;
+    left: 270px;
+    font-size: 18px;
+    text-decoration: none;
+    font-size: 18px;
+    animation: tryy 5s infinite;
+}
+@keyframes tryy {
+    0% {
+        color: violet;
+    }
+    16.66% {
+        color: indigo;
+    }
+    33.33% {
+        color: blue;
+    }
+    50% {
+        color: green;
+    }
+    66.66% {
+        color: yellow;
+    }
+    83.33% {
+        color: orange;
+    }
+    100% {
+        color: red;
+    }
+}
+.s2{
+    position: absolute;
+    top: 60px;
+    left: 400px;
+    font-size: 18px;
+    text-decoration: none;
+    font-size: 18px;
+    animation: tryyy 5s infinite;
+}
+@keyframes tryyy {
+    0% {
+        color: violet;
+    }
+    16.66% {
+        color: indigo;
+    }
+    33.33% {
+        color: blue;
+    }
+    50% {
+        color: green;
+    }
+    66.66% {
+        color: yellow;
+    }
+    83.33% {
+        color: orange;
+    }
+    100% {
+        color: red;
+    }
+}
+.image-container {
+    margin: 0 auto; /* center the image containers */
+    width: 80%;
+    box-shadow: 0 15px 30px rgba(0,0,0,0.30), 0 11px 8px rgba(0,0,0,0.22); /* material box shadow */
+    margin-bottom: 20px;
+    transition-duration: 1s;
+  }
+  .image-container:hover {
+    width: 90%;
+    box-shadow: 0 18px 36px rgba(0,0,0,0.30), 0 14px 11px rgba(0,0,0,0.22);
+  }
+  /* make the images responsive */
+  img {
+    width: 100%;
+    height: auto;
+  }
+  .image-description {
+    padding: 0 15px 15px 15px;
+    text-align: center;
+  }
+  
+  /* lightbox stylesheet */
+  .lightbox {
+    display: table; /* helps us center the lightbox-content */
+    transition-duration: 1s; /* duration of the fade in effect */
+  
+    /* make the lightbox occupy the entire page */
+    position: fixed;
+    top: -100%; /* hide the lightbox above the top edge */
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7); /* black with 0.7 opacity */
+  }
+  .lightbox:target {
+    top: 0; /* make the lightbox cover the entire page */
+  }
+  .lightbox-content {
+    display: table-cell;
+    vertical-align: middle; /* vertically center */
+    text-align: center; /* horizontally center */
+  }
+  .close {
+    /* position the CLOSE button to the top-right corner */
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  
+    /* style the close button */
+    font-size: 20px;
+    font-weight: 300;
+    text-decoration: none;
+    color: white;
+  }
+  
+  /* make the image responsive */
+  .lightbox img {
+    max-width: 100%;
+    height: auto;
+  }
+
